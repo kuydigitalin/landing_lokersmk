@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="title" content="Lokersmk.com">
+  <meta name="description" content="Website penyedia iklan loker terpercaya">
+  <meta name="keywords" content="Loker, Loker SMK, Loker Terbaru, SMK">
+  <meta name="author" content="Sanjaya, Faqih Pratama, Reza Riyaldi">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Home - Lokersmk.com</title>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">lokersmk.com</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Daerah
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="list_loker.html">Jabodetabek</a>
+              <a class="dropdown-item" href="list_loker.html">Cikarang</a>
+              <a class="dropdown-item" href="list_loker.html">Karawang</a>
+              <a class="dropdown-item" href="list_loker.html">Bandung</a>
+              <a class="dropdown-item" href="list_loker.html">Banten</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tips & Trik</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pelatihan Kerja</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Syarat & Ketentuan</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="jumbotron bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h3 class="display-4">Lulus SMK siap kerja?</h3>
+          <p>Dapatkan pekerjaan impianmu disini!</p>
+          <button class="btn btn-outline-success mx-auto d-block">Cari Pekerjaan</button>
+        </div>
+        <div class="col-md-6 img-jumbotron">
+          <img src="image/ilustrator/hire.svg" class="img-fluid">
+        </div>
+      </div>      
+    </div>
+  </div>
+
+
+  <section id="search" class="mb-5">
+    <div class="container">
+      <h4>Cari Pekerjaan sesuai keinginan kamu</h4>
+      <form action="">
+        <div class="row">
+          <div class="col-md-3 mb-3">
+            <div class="form-group">
+              <label>Daerah</label>
+              <select name="daerah_id" class="form-control">
+                <option selected disabled>-- Pilih Daerah --</option>
+                <option value="1">Jabodetabek</option>
+                <option value="2">Cikarang</option>
+                <option value="3">Karawang</option>
+                <option value="4">Bandung</option>
+                <option value="5">Banten</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div class="form-group">
+              <label>Tipe Pekerjaan</label>
+              <select name="tipe_pekerjaan_id" class="form-control">
+                <option selected disabled>-- Pilih Tipe Pekerjaan --</option>
+                <option value="1">Fulltime</option>
+                <option value="2">Magang</option>
+                <option value="3">Part Time</option>
+                <option value="4">Freelance</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div class="form-group">
+              <label>Nama Perusahaan</label>
+              <input type="text" name="perusahaan" class="form-control" placeholder="Masukan nama perusahaan">
+            </div>
+          </div>
+          <div class="col-md-3 mb-3 d-flex align-items-center">
+            <input type="submit" class="btn btn-success mt-3" value="Cari">
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+
+
+  <section id="jobs" class="mt-5 mb-5">
+    <div class="container">
+      <h4 class="mb-3">Pekerjaan baru diposting</h4>
+      <div class="row mb-3">
+        <div class="col-md-4 mb-3">
+          <div class="card bg-light">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-4">
+                  <img src="image/pt-sugity.jpg" class="img-fluid">
+                </div>
+                <div class="col-8">
+                  <h5>Operator Produksi</h5>
+                  <p>PT Sugity Creatives</p>
+                  <p>Cikarang Barat, Bekasi</p>
+                  <a href="" class="btn btn-success btn-sm">Detail</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card bg-light">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-4">
+                  <img src="image/chubb safes.jpg" class="img-fluid">
+                </div>
+                <div class="col-8">
+                  <h5>Staff QA</h5>
+                  <p>PT Chubb Safes Indonesia</p>
+                  <p>Cikarang Barat, Bekasi</p>
+                  <a href="" class="btn btn-success btn-sm">Detail</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card bg-light">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-4">
+                  <img src="image/tirta-alam.png" class="img-fluid">
+                </div>
+                <div class="col-8">
+                  <h5>Junior Web Programmer</h5>
+                  <p>PT Tirta Alam Segar</p>
+                  <p>Cikarang Barat, Bekasi</p>
+                  <a href="" class="btn btn-success btn-sm">Detail</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-3">
+        <div class="col-md-4 mb-3">
+          <div class="card bg-light">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-4">
+                  <img src="image/pos.jpg" class="img-fluid">
+                </div>
+                <div class="col-8">
+                  <h5>Kurir Pengantar</h5>
+                  <p>PT POS Indonesia</p>
+                  <p>Cibitung, Bekasi</p>
+                  <a href="" class="btn btn-success btn-sm">Detail</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card bg-light">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-4">
+                  <img src="image/paragon.png" class="img-fluid">
+                </div>
+                <div class="col-8">
+                  <h5>Network Administrator</h5>
+                  <p>PT Paragon Indonesia</p>
+                  <p>Jakarta Selatan, DKI jakarta</p>
+                  <a href="" class="btn btn-success btn-sm">Detail</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card bg-light">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-4">
+                  <img src="image/mandom.png" class="img-fluid">
+                </div>
+                <div class="col-8">
+                  <h5>Operator Produksi</h5>
+                  <p>PT Mandom Indonesia</p>
+                  <p>Cikarang Barat, Bekasi</p>
+                  <a href="" class="btn btn-success btn-sm">Detail</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="list_loker.html" class="btn btn-primary">Selengkapnya</a>
+    </div>
+  </section>
+
+
+  <section id="tips" class="mt-5 mb-5 bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="image/ilustrator/brainstorming.svg" class="img-fluid img-body">
+        </div>
+        <div class="col-md-8">
+          <h4>Kamuu bingung? Takut ditipu?</h4>
+          <p>Kami berusaha untuk memposting info loker resmi dari perusahaan terkait. Jika kamu menemukan loker yang mencurigakan, segera lapor ke kami! Ikuti tips & trick dari kami agar terhindar dari penipuan & lolos test kerja!</p>
+          <a href="" class="btn btn-info">Tips & Trik</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pelatihan">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <h4>Tidak pede dengan keahlian yang kamu miliki?</h4>
+          <p>Ikuti saran pelatihan keahlian dari kami agar bisa meningkatkan keahlian & kualitas dirimu, dan bangun masa depanmu yang lebih cerah!</p>
+          <a href="" class="btn btn-info">Info Pelatihan</a>
+        </div>
+        <div class="col-4">
+          <img src="image/ilustrator/undraw_file_manager_j85s.svg" class="img-fluid img-body">
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <footer class="mt-5 bg-light pt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Lokersmk.com</h2>
+          <p>PT. Anak SMK Membangun Indonesia</p>
+          <p>JL. KH. Agus Salim No 32, Slipi, Jakarta Barat</p>
+        </div>
+        <div class="col-md-4">
+          <ul>
+            <li><a href="">Tentang kami</a></li>
+            <li><a href="">Tips & Trik</a></li>
+            <li><a href="">Info Pelatihan</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 d-flex flex-column justify-content-center">
+          <h5>Subscribe untuk info terbaru!</h5>
+          <form action="">
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Masukan email kamu..">
+              <input type="submit" value="Subscribe" class="btn btn-primary mt-3">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <p class="text-center pt-5">Copyright &copy; 2020, PT Loker SMK Indonesia</p>
+  </footer>
+
+
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>  
+</body>
+</html>

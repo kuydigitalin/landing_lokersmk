@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.jumbotron h3 {
+  font-weight: 600;
+  font-size: 35px;
+  text-align: center;
+}
+
+hr {
+  display: none;
+}
+
+.jumbotron {
+  margin-top: 50px;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.jumbotron img {
+  height: 250px;
+  margin: 0 auto;
+  display: block;
+}
+
+#jobs img {
+  height: 120px;
+}
+
+.list-loker {
+  margin-top: 100px;
+}
+
+#tips {
+  margin-top: 100px;
+}
+#tips img {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#tips h4,
+#pelatihan h4 {
+  margin-top: 70px;
+  text-align: center;
+}
+
+#tips p,
+#pelatihan p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+#pelatihan {
+  margin-top: 50px;
+}
+
+footer a {
+  color: black;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: black;
+}
+
+@media (max-width: 554px) {
+  .jumbotron h3 {
+    font-size: 23px;
+  }
+  .jumbotron p {
+    font-size: 18px;
+  }
+  .img-jumbotron {
+    margin-top: 20px;
+  }
+  .img-body {
+    display: none;
+  }
+}
